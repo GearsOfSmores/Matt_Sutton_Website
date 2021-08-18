@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Personal Portfolio</title>
+	<meta name="viewport" content="width=device-device, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<section class="banner">
+<div class="textbx">
+	<h2>Hello, I'm Matthew Sutton.</h2>
+<h3>I'm a currently a student at Rutgers University majoring in History and ITI.<h3>
+
+<center><p><img src="Vinca.jpg" width="200" height="120"></p></center>
+<hr>
+<h2>Links to Games and Functions </h2>
+<p>  <a href ="http://www.Rutgers.edu">
+
+<ul>
+<li><a href="Date1.html">Date Function</a></li>
+<li><a href="CoinToss2.html">Coin Toss Game</li>
+<li></li>
+<li></li>
+
+<ul>
+<h3>List of My Favorite Web sites</h3>
+<form name="glinks">
+<table cellpadding="5">
+<tr>
+<td>Favorite websites</td>
+<td>
+   <select name="leg" onchange="jump_to_link(this);">
+   <option value="javascript:location.reload()">Select a Web page on the favorites
+   <option value="http://www.youtube.com/">Youtube: video sharing website
+   <option value="http://www.twitch.com/">Twitch: streaming platform
+   <option value="http://www.tenor.com/">Tenor: Memes archive
+   <option value="http://www.coroflot.com/">Coroflot: Design jobs & Portfolios
+   <option value="http://www.reddit.com/">Reddit: dicussion & web cotent rating website
+   
+   </select>
+</td>
+</tr>
+
+</table>
+</form>
+
+<p>Click <a href="m2908@scarletmail.rutgers.edu">here</a> to email me. </p>
+<br>
+<body>
+</html>
