@@ -18,9 +18,13 @@ section
 {
 	position: relative;
 	min-height: 100vh;
-	background-image: url("photo1.jpeg");
+	background-image: url("Banner_Game.jpeg");
+	
+	
+
 	background-size: cover;
-	background-position: right;
+	background-repeat: no-repeat;
+	background-position: center;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -422,6 +426,9 @@ header.sticky ul li a
 
 @media (max-width: 991px)
 {
+	.banner{
+		width: 100%; !important;
+	}
 	.banner .textBx
 	{
 	 padding: 30px 40px;
@@ -537,7 +544,11 @@ header.sticky ul li a
 		margin-bottom: 	20px;
 	}
 	
-	
+	.img{
+		width: 100%;
+		max-width: 500px;
+		
+	}
 	
 	.work .content
 	{
@@ -576,7 +587,7 @@ header.sticky ul li a
 	
 	section
 	{
-		padding: 100px	20px;
+		
 		margin: 1;
 	}
 }
