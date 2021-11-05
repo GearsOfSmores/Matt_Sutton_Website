@@ -17,14 +17,15 @@ section
 .banner
 {
 	position: relative;
-	min-height: 100vh;
-	background-image: url("Banner_Game.jpeg");
+	min-height: 110vh;
+	
+	background-image: url("QW_MainMenu2.png");
 	
 	
 
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: ;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
